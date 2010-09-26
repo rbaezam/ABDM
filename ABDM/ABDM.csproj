@@ -70,11 +70,15 @@
     <Compile Include="VenPrincipal.cs" />
     <Compile Include="Principal.cs" />
     <Compile Include="gtk-gui\VenPrincipal.cs" />
-    <Compile Include="Ayuda\DlgAcercaDe.cs" />
     <Compile Include="gtk-gui\ABDM.Ayuda.DlgAcercaDe.cs" />
+    <Compile Include="Ventanas\Ayuda\DlgAcercaDe.cs" />
+    <Compile Include="Entidades\Conexion.cs" />
+    <Compile Include="Entidades\BaseDatos.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Ayuda\" />
+    <Folder Include="Ventanas\" />
+    <Folder Include="Ventanas\Ayuda\" />
+    <Folder Include="Entidades\" />
   </ItemGroup>
 </Project>
