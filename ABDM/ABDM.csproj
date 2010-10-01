@@ -74,6 +74,12 @@
     <Compile Include="Ventanas\Ayuda\DlgAcercaDe.cs" />
     <Compile Include="Entidades\Conexion.cs" />
     <Compile Include="Entidades\BaseDatos.cs" />
+    <Compile Include="Entidades\Tabla.cs" />
+    <Compile Include="Entidades\TipoTabla.cs" />
+    <Compile Include="Entidades\FormatoRegistro.cs" />
+    <Compile Include="Entidades\ConjuntoCaracteres.cs" />
+    <Compile Include="Entidades\Colacion.cs" />
+    <Compile Include="Entidades\MetodoInsercion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
